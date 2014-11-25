@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Monoton);
+
+h1, h3 {
+  color: #750F75;
+
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Monoton', cursive;
+}
+
+.tagline {
+  font-size: 25px;
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+  color: #aaa;
+}
+
+form.search {
+  margin-top: 40px;
+}
+
+.control-label {
+  padding-top: 0px !important;
+}
+
+.breadcrumb {
+  font-size: 16px;
+}

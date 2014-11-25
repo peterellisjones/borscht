@@ -1,0 +1,10 @@
+---
+name: fake-job
+packages:
+- ruby
+- go
+
+properties:
+  cf.api_url:
+    description: 'Full URL of Cloud Foundry API'
+    default: 127.0.0.1

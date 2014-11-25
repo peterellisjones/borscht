@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "js-yaml": {
+      "version": "0.2.1",
+      "dependencies": {
+        "jsclass": {
+          "version": "3.0.4",
+          "dependencies": {
+            "nopt": {
+              "version": "3.0.1",
+              "dependencies": {
+                "abbrev": {
+                  "version": "1.0.5"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

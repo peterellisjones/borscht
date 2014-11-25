@@ -1,0 +1,42 @@
+<template name="manifestEditor">
+  <div class="col-sm-6">
+    <form class="form search" role="form">
+        <label for="searchForm" class="control-label"></label>
+        <input type="search" id="searchForm" class="form-control" placeholder="Enter search term here">
+    </form>
+  </div>
+  <div class="col-sm-12">
+  {{#each jobs}}
+    <div class="well">
+      <h3>{{ name }}</h3>
+      <br>
+      {{#if empty}}
+        <div class="alert alert-danger" role="alert">No properties specified in spec file</div>
+      {{else}}
+        <form class="form-horizontal" role="form">
+          {{#each formFields}}
+            <div class="form-group">
+              <label for="{{ id }}" class="col-sm-4 control-label">
+                <ol class="breadcrumb">
+                  {{#each labelParts }}
+                    <li>{{ this }}</li>
+                  {{/each}}
+                </ol>
+              </label>
+              <div class="col-sm-7">
+                <input type="text" class="form-control" id="{{ id }}" value="{{ value  }}">
+                <span class="help-block">{{ description }}</span>
+              </div>
+              <div class="col-sm-1">
+                {{#each badges}}
+                  <span class="label label-{{ type }}">{{ name }}</span>
+                {{/each}}
+              </div>
+            </div>
+          {{/each}}
+        </form>
+      {{/if}}
+    </div>
+  {{/each}}
+</div>
+</template>

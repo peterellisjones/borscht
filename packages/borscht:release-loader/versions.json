@@ -1,0 +1,31 @@
+{
+  "dependencies": [
+    [
+      "borscht:job",
+      "1.0.0"
+    ],
+    [
+      "borscht:manifest-loader",
+      "1.0.0"
+    ],
+    [
+      "borscht:property",
+      "1.0.0"
+    ],
+    [
+      "coffeescript",
+      "1.0.4"
+    ],
+    [
+      "meteor",
+      "1.1.3"
+    ],
+    [
+      "underscore",
+      "1.0.1"
+    ]
+  ],
+  "pluginDependencies": [],
+  "toolVersion": "meteor-tool@1.0.35",
+  "format": "1.0"
+}
