@@ -38,3 +38,14 @@ Now start Borscht with the following environment variables using the `meteor` co
 ```
 
 This will start Borscht on [http://localhost:3000](http://localhost:3000).
+
+## Tests
+
+Run the unit tests with
+```
+> meteor test-packages --port 4000
+```
+
+This runs the test server on [http://localhost:4000](http://localhost:4000)
+
+![](http://i.imgur.com/nNfKu1t.png)
