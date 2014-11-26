@@ -33,3 +33,5 @@ Now start Borscht with the environment variables `RELEASE_PATH` (the root-level 
 => Started MongoDB
 ...
 ```
+
+This will start Borscht on [http://localhost:3000](http://localhost:3000)
