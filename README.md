@@ -37,4 +37,4 @@ Now start Borscht with the following environment variables using the `meteor` co
 ...
 ```
 
-This will start Borscht on [http://localhost:3000](http://localhost:3000)
+This will start Borscht on [http://localhost:3000](http://localhost:3000).
